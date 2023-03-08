@@ -1,8 +1,8 @@
 # Input two positive whole numbers. Output the result of subtracting the smaller one from the larger one.
- 1stnumb = int(input())
- 2ndnumb = int(input())
+number1 = int(input())
+number2 = int(input())
  
- if 1stnumb > 2nd numb:
-  print(1st numb - 2nd numb)
- else
-  print(2ndnumb - 1stnumb)   
+if number1 > number2:
+  print(number1 - number2)
+else:
+  print(number2 - number1) 
